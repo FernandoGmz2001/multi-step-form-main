@@ -1,0 +1,144 @@
+:root {
+  --Marine-blue: hsl(213, 96%, 18%);
+  --Purplish-blue: hsl(243, 100%, 62%);
+  --Pastel-blue: hsl(228, 100%, 84%);
+  --Light-blue: hsl(206, 94%, 87%);
+  --Strawberry-red: hsl(354, 84%, 57%);
+  --Cool-gray: hsl(231, 11%, 63%);
+  --Light-gray: hsl(229, 24%, 87%);
+  --Magnolia: hsl(217, 100%, 97%);
+  --Alabaster: hsl(231, 100%, 99%);
+  --White: hsl(0, 0%, 100%);
+}
+
+.main {
+  height: 100vh;
+}
+
+.main__header {
+  height: 20%;
+  z-index: 1;
+}
+
+.main__header-numbers {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  gap: 10px;
+  height: 100%;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/cinepolis-hosting.appspot.com/o/Multi%20Step%20Form%2Fbg-sidebar-mobile.svg?alt=media&token=bde6f64d-dfe5-4ad9-8a32-193216d90159);
+}
+
+.main__header-number {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  font-weight: 500;
+}
+
+.main__header-number-selected {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: black;
+  background-color: var(--Light-blue);
+  font-weight: 500;
+}
+
+.main__body {
+  padding: 0px 10px;
+  position: relative;
+  background-color: var(--Light-blue);
+  height: 65%;
+}
+
+.card {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -60px;
+  bottom: 0;
+  margin: auto;
+  width: 95%;
+  border-radius: 10px;
+  padding: 15px;
+  height: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card__header-title {
+  color: var(--Marine-blue);
+}
+
+.card__header-content {
+  width: 30ch;
+  color: var(--Cool-gray);
+}
+
+.card__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.card__form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card__form-group label {
+  color: var(--Marine-blue);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.card__form-group input {
+  padding: 10px;
+  border: 1px solid var(--Light-gray);
+  border-radius: 2px;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+}
+
+.goBack {
+  color: var(--Cool-gray);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.btnNextStep {
+  background-color: var(--Marine-blue);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: transparent;
+}

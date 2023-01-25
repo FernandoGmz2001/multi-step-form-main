@@ -1,0 +1,23 @@
+[
+    {
+        "Id": 1,
+        "Title": "Arcade",
+        "Price": "$90/yr",
+        "FreeMonths": "2 months free",
+        "Image": "https://firebasestorage.googleapis.com/v0/b/cinepolis-hosting.appspot.com/o/Multi%20Step%20Form%2Ficon-arcade.svg?alt=media&token=6a97509d-0ffa-4c88-9649-422dcba1c2e8"
+    },
+    {
+        "Id": 2,
+        "Title": "Advanced",
+        "Price": "$120/yr",
+        "FreeMonths": "2 months free",
+        "Image": "https://firebasestorage.googleapis.com/v0/b/cinepolis-hosting.appspot.com/o/Multi%20Step%20Form%2Ficon-advanced.svg?alt=media&token=a1ec0cd9-c879-4b57-a8c1-09ac494a9099"
+    },
+    {
+        "Id": 3,
+        "Title": "Pro",
+        "Price": "$150/yr",
+        "FreeMonths": "2 months free",
+        "Image": "https://firebasestorage.googleapis.com/v0/b/cinepolis-hosting.appspot.com/o/Multi%20Step%20Form%2Ficon-pro.svg?alt=media&token=1f071ce0-1834-47e6-bc17-dadef45f2eef"
+    }
+]
